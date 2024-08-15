@@ -29,7 +29,7 @@ Descriptografia: A mensagem criptografada é dividida em duas partes de igual ta
          alt="Start Button" 
          style="
         display: flex;
-        justify-content: center   
+        justify-content: center;   
         width: 200px;
         height: 200px;">
 </a>
