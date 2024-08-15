@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia</title>
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    
+    <h2>Criptografia</h2>
+    <form>
+        <br>
+          <input type="text" id="Inmensagem"> <br><br>
+        <input type="submit" value="Criptografar">
+        <input type="button" value="Descriptografar" id="desc">
+    </form>
+
+    <pre></pre>
+
+    <script>
+        const form = document.querySelector("form");
+        const exibir = document.querySelector("pre");
+
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+
+            let mensagem = form.Inmensagem.value;
+            let tam = mensagem.length;
+            let pares = "";
+            let impares = "";
+            let resultado = "";
+
+            for (let i = 0; i < tam; i++) {
+                if (i % 2 == 0) {
+                    pares += mensagem.charAt(i);
+                } else {
+                    impares += mensagem[i];
+                }
+            }
+
+            resultado = pares + impares;
+            exibir.textContent = resultado;
+        });
+
+        document.getElementById('desc').addEventListener("click", () => {
+            const menCriptografada = form.Inmensagem.value;
+            const metade = Math.ceil(menCriptografada.length / 2);
+            let resultado = '';
+
+            for (let i = 0; i < metade; i++) {
+                resultado += menCriptografada[i];
+                if (i + metade < menCriptografada.length) {
+                    resultado += menCriptografada[i + metade];
+                }
+            }
+
+            exibir.textContent = resultado;
+        });
+         
+
+    </script>
+</body>
+
+</html>
