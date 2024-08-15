@@ -23,5 +23,11 @@ Combinação: As duas strings são concatenadas para formar a mensagem criptogra
 Descriptografia: A mensagem criptografada é dividida em duas partes de igual tamanho. Os caracteres são então intercalados para recuperar a mensagem original.
 
 **PRECIONE 'INICIAR' ABAIXO PARA ACESSAR :**
-[![Pngtree-tech-style-click-start-button-5625458.png](https://i.postimg.cc/4yMpmyQZ/Pngtree-tech-style-click-start-button-5625458.png)](https://matheusfillipe-0.github.io/Criptografia/aplicacoes-criptografia)
+
+<a href="https://matheusfillipe-0.github.io/Criptografia/aplicacoes-criptografia">
+    <img src="https://i.postimg.cc/4yMpmyQZ/Pngtree-tech-style-click-start-button-5625458.png" 
+         alt="Start Button" 
+         style="width: 200px; height: 100px;">
+</a>
+
 
