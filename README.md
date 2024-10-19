@@ -1,7 +1,5 @@
 **PRECIONE 'START' ABAIXO PARA ACESSAR :**
-
-
-https://matheusfillipe-0.github.io/Criptografia/aplicacoes-criptografia.html
+ 
 <a href="https://matheusfillipe-0.github.io/Criptografia/aplicacoes-criptografia">
     <img src="https://i.postimg.cc/cHWwKDbM/Pngtree-tech-style-click-start-button-5625458.png" 
          alt="Start Button" 
